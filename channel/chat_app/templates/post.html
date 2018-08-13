@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+ <div class="mesgs">
+   {%for chats in chat%}
+          <div class="msg_history">
+            <div class="incoming_msg">
+              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <p>{{chats.message}}</p>
+                  <span class="time_date">{{chats.datetime}}</span></div>
+              </div>
+            </div>
+          </div>
+   {%endfor%}
+          <div class="type_msg">
+            <div class="input_msg_write">
+              <form method="post">
+                {% csrf_token %}
+              {{form}}
+              <button class="msg_send_btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div></div>
+
+{% endblock %}

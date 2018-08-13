@@ -1,0 +1,448 @@
+.container{
+  max-width:1170px;
+  margin:auto;
+  }
+
+
+img{ max-width:100%;}
+.inbox_people {
+  background: #f8f8f8 none repeat scroll 0 0;
+  float: left;
+  overflow: hidden;
+  width: 40%; border-right:1px solid #c4c4c4;
+}
+.inbox_msg {
+  border: 0px solid #c4c4c4;
+  clear: both;
+  overflow: hidden;
+}
+.top_spac{ margin: 20px 0 0;}
+
+
+.recent_heading {float: left; width:40%;}
+.srch_bar {
+  display: inline-block;
+  text-align: right;
+  width: 60%; padding:
+}
+.headind_srch{ padding:10px 29px 10px 20px; overflow:hidden; border-bottom:1px solid #c4c4c4;}
+
+.recent_heading h4 {
+  color: #05728f;
+  font-size: 21px;
+  margin: auto;
+}
+.srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+.srch_bar .input-group-addon button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  padding: 0;
+  color: #707070;
+  font-size: 18px;
+}
+.srch_bar .input-group-addon { margin: 0 0 0 -27px;}
+
+.chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {
+  float: left;
+  width: 11%;
+}
+.chat_ib {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  padding: 18px 16px 10px;
+}
+.inbox_chat { height: 550px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+.incoming_msg_img {
+  display: inline-block;
+  width: 6%;
+}
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+ }
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.received_withd_msg { width: 57%;}
+
+.mesgs {
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 50%;
+
+}
+
+ .sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+.input_msg_write input {
+  background: rgba(255, 255, 255, 0.81) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+  height: 516px;
+  overflow-y: auto;
+}
+
+.text-muted {
+    color: #ffffff!important;
+}
+
+
+body {
+    background:url('ashed.jpg') no-repeat 0% 87% fixed;
+    background-size: cover;
+    background-color:#dcdcdc;
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+}
+l[]\78.
+
+.header-w3l{
+    margin: 2% auto;
+}
+.header-w3l h1 {
+    font-size: 3em;
+    letter-spacing: 6px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main-agileits {
+    margin: 2% auto;
+   	background: rgba(255, 255, 255, 0.2);
+    width: 32%;
+	font-family: 'Lato', sans-serif;
+}
+.sub-head {
+    font-size: 38px;
+    padding: 42px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.sub-main{
+	position:relative;
+}
+/*--icons--*/
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+	position: absolute;
+    left: 51px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.83);
+    width: 22px;
+}
+.icon1{
+	top: 12px;
+}
+.icon2 {
+    top: 75px;
+}
+.icon3 {
+	 top: 138px;
+}
+.icon4 {
+    top: 201px;
+}
+.icon5 {
+	top: 264px;
+}
+.icon6 {
+  top: 327px;
+}
+/*--//icons--*/
+
+.sub-main input[type="text"],
+.sub-main input[type="password"],
+.sub-main input[type="text"], .sub-main input[type="email"]{
+    background-color:white;
+    outline: none;
+    font-size: 1.1em;
+    margin: 4px 0px 18px 1px;
+    color: black;
+    padding: 10px 38px;
+    border: none;
+    border-radius: 2px;
+    width: 68%;
+    font-family: 'Lato', sans-serif;
+}
+.sub-main input[type="submit"] {
+    color: white;
+    background:#232122;
+    border: none;
+    padding: 14px 50px;
+    font-size: 22px;
+    border-radius: 2px;
+    margin: 17px;
+	font-family: 'Lato', sans-serif;
+	cursor:pointer;
+	text-transform:uppercase;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.sub-main input[type="submit"]:hover {
+    background: #d9edf7;
+    color: black;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+/*--//main--*/
+
+/*--footer--*/
+.footer-w3  p {
+    font-size: .9em;
+    color: white;
+}
+.footer-w3  p a {
+    color: #d20962;
+}
+.footer-w3  p a:hover {
+   text-decoration:underline;
+}
+/*--//footer--*/
+
+/*--Responsive--*/
+@media(max-width:1440px){
+	.main-agileits {
+		width:35%;
+	}
+}
+@media(max-width:1366px){
+	.main-agileits {
+		width:36%;
+	}
+}
+@media(max-width:1280px){
+	.main-agileits {
+		width:40%;
+	}
+}
+@media(max-width:1024px){
+	.main-agileits {
+		width:50%;
+	}
+}
+@media(max-width:991px){
+	.main-agileits {
+		width:52%;
+	}
+}
+@media(max-width:800px){
+	.main-agileits {
+		width:64%;
+	}
+}
+@media (max-width: 768px){
+	.main-agileits {
+		width: 68%;
+	}
+}
+@media (max-width: 736px){
+	.main-agileits {
+		width: 70%;
+	}
+	.header-w3l h1 {
+		font-size: 38px;
+	}
+	.sub-head {
+		font-size: 35px;
+	}
+}
+@media (max-width: 667px){
+	.main-agileits {
+		width: 78%;
+	}
+	.header-w3l h1 {
+		font-size: 39px;
+	}
+}
+@media (max-width: 640px){
+	.main-agileits {
+		width: 80%;
+	}
+	.header-w3l h1 {
+		letter-spacing: 5px;
+	}
+}
+@media (max-width: 600px){
+	.main-agileits {
+		width: 84%;
+	}
+	.header-w3l h1 {
+		letter-spacing: 4px;
+	}
+}
+@media (max-width: 568px){
+	.main-agileits {
+		width: 88%;
+	}
+	.header-w3l h1 {
+		letter-spacing: 3px;
+	}
+}
+@media (max-width: 480px){
+	.main-agileits {
+		width: 92%;
+	}
+	.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+		left: 38px;
+	}
+	.header-w3l h1 {
+		font-size: 2.8em;
+		letter-spacing: 0px;
+	}
+	.sub-head {
+		padding: 36px;
+	}
+	.footer-w3 p {
+		font-size: 13px;
+	}
+	.footer-w3 {
+		padding: 11px 0px 32px 0px;
+	}
+}
+@media (max-width: 414px){
+	.main-agileits {
+		width: 95%;
+	}
+	.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+		left: 31px;
+	}
+	.header-w3l h1 {
+		letter-spacing:3px;
+		font-size: 34px;
+	}
+	.header-w3l {
+		margin: 8% auto;
+	}
+	.sub-main input[type="submit"] {
+		padding: 14px 70px;
+		margin: 52px;
+	}
+	.sub-head {
+		font-size: 30px;
+	}
+}
+@media (max-width: 375px){
+	.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+		left: 26px;
+	}
+	.header-w3l h1 {
+		letter-spacing: 3px;
+		font-size: 32px;
+	}
+	.sub-head {
+		font-size: 30px;
+	}
+}
+@media (max-width: 384px){
+	.header-w3l h1 {
+		font-size: 32px;
+	}
+	.sub-head {
+		font-size: 28px;
+	}
+	.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+		left: 25px;
+	}
+	.footer-w3 {
+		line-height: 23px;
+	}
+	.sub-main input[type="submit"] {
+		padding: 14px 70px;
+		margin: 19px;
+	}
+	.sub-head {
+		padding: 18px 0 10px 0;
+	}
+}
+@media (max-width: 320px){
+	.header-w3l h1 {
+		letter-spacing: 3px;
+		font-size: 34px;
+	}
+	.sub-head {
+		font-size: 28px;
+	}
+	.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+		left: 18px;
+	}
+	.sub-main input[type="submit"] {
+		padding: 14px 49px;
+	}
+	.footer-w3 {
+		line-height: 23px;
+	}
+}
+@media (min-width: 320px)
+.navbar-expand-sm .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}

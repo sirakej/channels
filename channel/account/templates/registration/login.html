@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block title %}Log in{% endblock %}
+
+{% block content %}
+	<div class="header-w3l">
+	</div>
+
+<div class="main-agileits">
+		<div class="sub-main">
+            <form method = "POST" class="fa fa">
+                <h3 class="sub-head">Sign In</h3>
+                {% csrf_token %}
+                {{ form.as_p }}
+         <button type="submit" class="btn btn-primary btn-block">Log in</button>
+			</form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+		</div>
+
+</div>
+{% endblock %}
